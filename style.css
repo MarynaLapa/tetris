@@ -1,0 +1,52 @@
+
+body {
+    background: linear-gradient(45deg, rgb(245, 152, 168, 0.53), #f6edb2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    background-color: brown;
+    padding: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    gap: 0.5vh;
+}
+
+.grid > div {
+    height: min(4vh, 7vh);
+    width: min(4vh, 7vh);
+    background-color: rgb(224, 147, 147);
+    border-radius: 0.3vh;
+    border: 1px solid brown;
+}
+
+.grid .O-block {
+    background-color: rgb(253, 214, 156);
+}
+
+.grid .J-block {
+    background-color: rgb(198 82 190);
+}
+
+.grid .L-block {
+    background-color: rgb(163, 80, 225);
+}
+
+.grid .I-block {
+    background-color: rgb(216, 199, 64);
+}
+
+.grid .S-block {
+    background-color: rgb(241 74 74);
+} 
+
+.grid .T-block {
+    background-color: rgb(65 155 65);
+}
+
+.grid .Z-block {
+    background-color: rgb(154 205 50);
+} 
